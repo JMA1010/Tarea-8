@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+.mn{
+    margin-top: 2rem;
+}
+img{
+    max-width: 100%;
+    height: 30ex;
+}
+.nav1{
+    background-color: rgb(244, 111, 23);
+    width: 100%;
+    height: 10ex;    
+}
+.nav{    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+    list-style: none;
+    color: black;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center ;
+}
+.mt{
+    margin-top: 3rem;
+    background-color: rgb(10, 156, 119);
+    padding: 10px;
+}
+.anchoart{
+    background-color: aqua;
+    width: 80%;
+    padding: 10px;
+}
+.anchoaside{
+    width: 20%;
+    padding: 10px;
+}
+a {
+    color: #0e0e0e;
+    text-decoration: none;
+  }
+.clasecolor{
+    color: rgb(27, 27, 31);
+}
+.clasetamaño{
+    font-size: 1.5em;
+}
+.claseheader{
+    background-color: rgb(33, 143, 143);
+    width: 100%;
+    height: 30ex;
+    display: flex;               /*Hace que el contenido del contenedor se flexible, esto facilita su posicionamiento*/
+    justify-content: space-between;     /*centra el elemento de manera horizontal*/
+    align-items: center;         /*centra el elemento de manera vertical*/ 
+    text-align: center;
+}
+.clasefooter{
+    background-color: rgb(33, 143, 143);
+    width: 100%;
+    height: 10ex;
+    margin-top: auto;
+    display: flex;               /*Hace que el contenido del contenedor se flexible, esto facilita su posicionamiento*/
+    justify-content: space-around;     /*centra el elemento de manera horizontal*/
+    align-items: center;         /*centra el elemento de manera vertical*/ 
+    }
+.centrartexto{
+    text-align: center;    
+}
+.borde1{
+    border: rgb(100, 100, 235) 2px solid;
+    padding: 2rem;
+}
+.anchoform1{      /*establece el ancho del formulario de registro*/
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+/*form{
+    display: flex;
+    flex-direction: column;
+    border-style: double;
+    border-color:rgb(3, 3, 129);
+    width: 30%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;  
+}*/
+table{
+    margin: 0 auto;
+}
